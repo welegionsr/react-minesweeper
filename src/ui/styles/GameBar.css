@@ -1,0 +1,20 @@
+.gamebar {
+    background: linear-gradient(180deg,hsla(0, 0%, 10.2%, 0.85) 20%, rgba(0, 0, 0, 0.6) 120%);
+    box-shadow: 0px 2px rgba(185, 185, 185, 0.2);
+}
+
+.brand-title {
+    font-size: 1.55rem;
+    color: white;
+    text-shadow: 0px 3px rgb(87, 85, 90);
+}
+
+.brand-icon {
+    border: 2px solid rgb(129, 136, 158);
+}
+
+.brand-logo {
+    background: rgba(223, 214, 224, 0.2);
+    padding: 6px 12px;
+    border-radius: 4px;
+}
