@@ -74,6 +74,7 @@ export default function GameBoard({rows, cols, numMines}){
                         {row.map((cell, colIndex) => (
                             <Col key={colIndex} className="p-1">
                                 <Button
+                                    className={cell.revealed ? "revealed" : ""}
                                     variant={cell.revealed ? (cell.isMine ? "danger" : "light") : "secondary"}
                                     onClick={() => handleCellClick(rowIndex, colIndex)}
                                     onContextMenu={(e) => handleRightClick(e, rowIndex, colIndex)}
